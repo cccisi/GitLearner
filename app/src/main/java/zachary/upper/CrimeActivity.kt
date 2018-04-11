@@ -11,7 +11,7 @@ class CrimeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_crime)
 
         // Example of a call to a native method
-        sample_text.text = "GitHub"
+        sample_text.text = "GitHub has been changed"
 //        sample_text.text = stringFromJNI()
     }
 

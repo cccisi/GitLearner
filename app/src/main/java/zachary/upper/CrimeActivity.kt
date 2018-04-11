@@ -1,7 +1,7 @@
 package zachary.upper
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_crime.*
 
 class CrimeActivity : AppCompatActivity() {
@@ -11,7 +11,7 @@ class CrimeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_crime)
 
         // Example of a call to a native method
-        sample_text.text = "GitHub has been changed"
+        sample_text.text = "GitHub Dev"
 //        sample_text.text = stringFromJNI()
     }
 
